@@ -1,0 +1,73 @@
+body{
+	background-color: #1b1f22
+}			
+
+.dropdown{
+	padding-right: 5px; 
+}
+
+.navbar{
+	padding-left: 5px;
+}
+
+table{
+	text-align: center;
+}
+
+.text{
+	color: White;	
+}
+
+#img{
+	filter: drop-shadow(0 0 10px orange);
+	animation: glow 2s alternate infinite;
+}
+
+@keyframes glow{
+	0%{
+		filter: drop-shadow(0 0 10px orange);
+	}
+	100%{
+		filter: drop-shadow(0 0 25px orange);
+	}
+}
+
+#one{
+	filter: drop-shadow(0 0 10px blue);	
+	animation: alternate;
+}
+
+#two{
+	filter: drop-shadow(0 0 10px green);
+	animation: alternate;	
+}
+
+#three{
+	filter: drop-shadow(0 0 10px yellow);
+	animation: alternate;	
+}
+
+#four{
+	filter: drop-shadow(0 0 10px red);	
+	animation: alternate;
+}
+
+#five{
+	filter: drop-shadow(0 0 10px white);	
+	animation: alternate;
+}
+
+#btn{
+	border: 2px;
+	border-radius: 10px;
+	background-color: lime;
+	transition: 0.2sec ease-in-out;
+
+}
+
+#btn:hover{
+	background-color: red;
+	animation: glow;
+	filter: drop-shadow(0 0 25px red);
+	animation: glow;
+}
