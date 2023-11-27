@@ -16,8 +16,9 @@ function ek() {
 
 		//Append the paragraph to the Id "one"
 		one.appendChild(paragraph);
-
+	
 	}
+	
 }
 
 function dui() {
