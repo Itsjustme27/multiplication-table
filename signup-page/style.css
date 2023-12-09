@@ -8,6 +8,7 @@
     padding: 20px;
     border-radius: 100px;
     border-radius: 200cm;
+    background: linear-gradient(yellow, orange );
 }
 
 input{
@@ -17,12 +18,13 @@ input{
     padding: 10px;
     background: whitesmoke;
     font-family: Lato;
-    border: none;
+    border-radius: 10px;
     
 }
 
 label{
     margin: 10px;
+    padding-right: 130px;
 }
 
 button{
