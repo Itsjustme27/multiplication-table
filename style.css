@@ -20,7 +20,7 @@ table{
 
 #img{
 	filter: drop-shadow(0 0 10px orange);
-	animation: glow 2s alternate infinite;
+	animation: glow 0.1ms alternate infinite;
 }
 
 @keyframes glow{
